@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Hello() {
-    return (
-        <div>
-            <h1>
-                Hello world!
-            </h1>
-        </div>
-    )
-}
+import App from './components/App';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
