@@ -9,11 +9,12 @@ const StyledLink = styled.a`
     padding-right: 33px;
     border-right: 1px dotted #fff;
 
-    &:hover{
+    &:hover,
+    &:focus{
         color: #8d8d8d;
         text-decoration: none;
     }
-
+    
     &:last-child{
         border-right: none;
     }
